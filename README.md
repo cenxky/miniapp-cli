@@ -5,16 +5,16 @@ miniapp-cli支持你使用jade，sass/scss/stylus来编写[微信小程序](http
 
 ## 安装
 ```
-      $ npm install miniapp-cli -g
+    $ npm install miniapp-cli -g
 ```
 查看帮助
 ```
-      $ miniapp-cli -h
+    $ miniapp-cli -h
 ```
 
 ## 创建项目
 ```
-      $ miniapp-cli new your_app_name
+    $ miniapp-cli new your_app_name
 ```
 
 `new`命令可以为你快速生成一个初始化的小程序项目，并为你自动安装其中的默认npm package依赖。
@@ -38,20 +38,20 @@ miniapp-cli支持你使用jade，sass/scss/stylus来编写[微信小程序](http
 通过`build`来编译小程序项目
 ```
     $ cd your_app_name
-      $ miniapp-cli build
+    $ miniapp-cli build
 ```
 同时你还可以加上 `-w` 参数，以监测文件改动从而自动编译
 ```
-      $ miniapp-cli build -w
+    $ miniapp-cli build -w
 ```
 
 ## Page模板生成
 通过`g` 来快速生成page，执行
 ```
-      $ miniapp-cli g page_name
+    $ miniapp-cli g page_name
 ```
 将会自动在 `src/pages` 和 `dist/pages` 目录中生成 `page_name` 文件夹，并生成基本的文件结构
--  page_name.js
+- page_name.js
 - page_name.wxml
 - page_name.wxss
 
@@ -65,3 +65,4 @@ miniapp-cli支持你使用jade，sass/scss/stylus来编写[微信小程序](http
 ### License
 
 [MIT](http://opensource.org/licenses/MIT)
+
