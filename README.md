@@ -22,7 +22,7 @@ miniapp-cli支持你使用jade，sass/scss/stylus来编写[微信小程序](http
 
 目前 `wxml` 支持的预编译方式
 - wxml (不使用预编译)
-- pug(即jade)
+- pug (即jade)
 
 目前 `wxss` 支持的预编译方式
 - wxss (不使用预编译)
